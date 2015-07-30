@@ -1,8 +1,6 @@
-var string = "I am happy to be here today";
-
 var replaceSpace = function (str) {
-  var newString = str.replace(/ /g, "%20");
-  console.log(newString);
+  str = str.replace(/ /g, "%20");
+  console.log(str);
 };
 
-replaceSpace(string);
+replaceSpace("I am happy to be here today");
